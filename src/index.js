@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import App2 from './App2';
 import App3 from './App3';
+import App4 from './App4';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App3 />
+    <App4 />
   </React.StrictMode>,
   document.getElementById('root')
 );

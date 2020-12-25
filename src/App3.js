@@ -13,7 +13,7 @@ function App3(){
                <Route path="/" component={Home}/>
                 <Route path="/about" component={About}/>
                 <Route path="/nav" exact component={Nav}/>
-                <Route path="/nav/:id" component={item}/>
+                <Route path="/nav/:id"/>
             </Switch>
             </div>
         </Router>
